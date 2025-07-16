@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #4CAF50;
+}
+
+.services-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.services-buttons button:hover {
+  background-color: #388E3C;
+}
+
+.selected-services {
+  margin-top: 30px;
+}
+
+.selected-services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.selected-services li {
+  background-color: #fff;
+  margin: 8px auto;
+  padding: 10px;
+  max-width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+

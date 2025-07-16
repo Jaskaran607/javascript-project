@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Service Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Select Your Services</h1>
+  </header>
+
+  <main>
+    <div class="services-buttons">
+      <button onclick="selectService('Website')">Website</button>
+      <button onclick="selectService('Branding')">Branding</button>
+      <button onclick="selectService('SEO')">SEO</button>
+      <button onclick="selectService('Ecommerce')">Ecommerce</button>
+    </div>
+
+    <div class="selected-services">
+      <h2>Selected Services:</h2>
+      <ul id="services-list"></ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
